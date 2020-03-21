@@ -1,3 +1,9 @@
+"""
+    desc: A basic web scrapper that fetches the developper job listings from indeed
+    author: Ka-son Chau
+    last updated: 2020-03-20
+"""
+
 from bs4 import BeautifulSoup
 import requests
 import webbrowser
