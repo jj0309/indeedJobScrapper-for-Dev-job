@@ -1,7 +1,9 @@
 """
     desc: A basic web scrapper that fetches the developper job listings from indeed
     author: Ka-son Chau
-    last updated: 2020-03-20
+    last updated: 2020-03-21
+    2020-03-20 update: v.1.0 of the script
+    2020-03-21 update: added next page feature
 """
 
 from bs4 import BeautifulSoup
