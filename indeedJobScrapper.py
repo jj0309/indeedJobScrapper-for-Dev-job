@@ -40,7 +40,7 @@ def openJob(returnedJobList,URL):
             pageIndex+=1
             jobListToShow = findJobs(pageURL+str(pageIndex*10))
         else:
-            webbrowser.open(returnedJobList[int(userChoice)])
+            webbrowser.open(jobListToShow[int(userChoice)])
 
 
 def main():
